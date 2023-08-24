@@ -7,7 +7,7 @@ const SubmissionLink = ({ linkTitle, dueDate, openModal }) => {
     <div className="submission-link">
       <p>{linkTitle}</p>
       <p>Due Date: {dueDate}</p>
-      <button onClick={openModal}>Submit Work</button>
+      <button onClick={openModal}>Submit Work Here</button>
     </div>
   );
 };
