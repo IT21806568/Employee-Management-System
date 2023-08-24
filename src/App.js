@@ -30,6 +30,7 @@ const UploadModal = ({ isOpen, closeModal, submitWork }) => {
       <h2>Upload Your Work Here </h2>
       {/* thisun */}
       {/* intergration */}
+      {/* update1 */}
       <input type="file" onChange={handleFileChange} />
       <button onClick={handleSubmit}>Submit here</button>
       <button onClick={closeModal}>Cancel</button>
