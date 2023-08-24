@@ -29,6 +29,7 @@ const UploadModal = ({ isOpen, closeModal, submitWork }) => {
     <Modal isOpen={isOpen} onRequestClose={closeModal} contentLabel="Upload Modal">
       <h2>Upload Your Work Here </h2>
       {/* thisun */}
+      {/* intergration */}
       <input type="file" onChange={handleFileChange} />
       <button onClick={handleSubmit}>Submit</button>
       <button onClick={closeModal}>Cancel</button>
