@@ -19,7 +19,7 @@ const UploadModal = ({ isOpen, closeModal, submitWork }) => {
     const selectedFile = event.target.files[0];
     setFile(selectedFile);
   };
-
+// Integrate
   const handleSubmit = () => {
     submitWork(file);
     setFile(null);
